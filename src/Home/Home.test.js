@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import Home from './Home';
 import './Home.css';
+import renderer from 'react-test-renderer';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -16,7 +18,8 @@ describe('Home', () => {
   });
 
   xit('Should render a title', () => {
-
+    const title = renderer.create(<p>Taylor Hulsmans</p>).toJSON();
+      expect(title).toMatchSnapshot();
   });
 
   xit('Should render picture', () => {
