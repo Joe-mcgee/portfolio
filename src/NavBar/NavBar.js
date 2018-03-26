@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import PropTypes from 'prop-types';
+import './NavBar.css';
+
+/*childrem*/
+
+import Home from './Home/Home'
 
 class NavBar extends Component {
   constructor(props) {
@@ -13,9 +17,17 @@ class NavBar extends Component {
   render() {
     return (
       <div className='NavBar'>
+        <nav>
+          <Home />
+        </nav>
       </div>
       );
   }
 }
+
+NavBar.propTypes = {
+
+}
+
 
 export default NavBar;
