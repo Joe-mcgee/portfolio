@@ -23,6 +23,7 @@ describe('NavLinks', () => {
 
   it('should have a blog route', () => {
     const blog = renderer.create(<BrowserRouter><NavLink to='/blog' exact className='Nav__blog'>Blog</NavLink></BrowserRouter>)
+    expect(blog).toMatchSnapshot()
   })
 
 })
