@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 /*childrem*/
 
@@ -22,5 +23,10 @@ class NavBar extends Component {
       );
   }
 }
+
+NavBar.propTypes = {
+
+}
+
 
 export default NavBar;
