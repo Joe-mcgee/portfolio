@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './NavBar';
+import './NavBar.css';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -13,6 +14,11 @@ describe('NavBar', () => {
     expect(NavBar).toBeDefined();
 
   });
+
+  xit('should have a Homebutton', () => {
+
+  })
+
 
 
 
