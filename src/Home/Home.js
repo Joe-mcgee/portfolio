@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Home.css';
+import {Router, Link} from 'react-router-dom';
 
 
 class Home extends Component {
@@ -14,6 +15,10 @@ class Home extends Component {
   render () {
     return (
       <div className='Home'>
+      <Link to='/'>Home</Link>
+      <p>Taylor Hulsmans</p>
+      <img />
+      <p> This is My site</p>
       </div>
       )
   }
