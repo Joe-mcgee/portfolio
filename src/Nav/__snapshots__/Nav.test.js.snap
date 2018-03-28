@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLinks should have a blog route 1`] = `
+<a
+  aria-current={false}
+  className="Nav__blog"
+  href="/blog"
+  onClick={[Function]}
+  style={undefined}
+>
+  Blog
+</a>
+`;
+
+exports[`NavLinks should have a home route 1`] = `
+<a
+  aria-current="true"
+  className="Nav__home active"
+  href="/"
+  onClick={[Function]}
+  style={Object {}}
+>
+  Home
+</a>
+`;

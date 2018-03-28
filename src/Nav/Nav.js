@@ -16,6 +16,7 @@ class Nav extends Component {
         <ul className='Nav__container'>
           <li><NavLink to='/' exact className='Nav__home'>Home</NavLink></li>
           <li><NavLink to='/blog' className='Nav__blog'>Blog</NavLink></li>
+          <li><NavLink to='/portfolio' className='Nav__Portfolio'>Portfolio</NavLink></li>
         </ul>
       </nav>
       )

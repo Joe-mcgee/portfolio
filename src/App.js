@@ -8,6 +8,7 @@ import {BrowserRouter, Link, Switch, Route} from 'react-router-dom';
 import Nav from './Nav/Nav';
 import Home from './Home/Home';
 import Blog from './Blog/Blog';
+import Portfolio from './Portfolio/Portfolio';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/blog' component={Blog} />
+              <Route exact path='/portfolio' component={Portfolio} />
             </Switch>
         </div>
       </BrowserRouter>
