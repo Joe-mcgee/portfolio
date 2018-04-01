@@ -3,3 +3,33 @@
   grid-template-rows: 24% 5% 9% 62%;
   grid-template-columns: 62% 9% 5% 24%;
 }
+
+.Main {
+ background-color: blue;
+ grid-row: 1 / 5;
+ grid-column: 1;
+}
+
+.Aside {
+  background-color: red;
+  grid-row: 4/5;
+  grid-column: 2/5;
+}
+
+.Touch {
+  background-color: teal;
+  grid-row: 1/4;
+  grid-column: 4/5;
+}
+
+.Top {
+  background-color: black;
+  grid-row: 1;
+  grid-column: 2/4
+}
+
+.Eye {
+  background-color: gold;
+  grid-row: 2/4;
+  grid-column: 2/4;
+}

@@ -18,7 +18,16 @@ class Handler extends Component {
 
     return (
       <div className='Handler' style={{width: this.props.width, height:this.props.height}} >
-      <p>this is the Handler</p>
+        <div className='Main'>
+        </div>
+        <div className='Aside'>
+        </div>
+        <div className='Touch'>
+        </div>
+        <div className='Top'>
+        </div>
+        <div className='Eye'>
+        </div>
       </div>
       )
   }
