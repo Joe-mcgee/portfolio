@@ -8,3 +8,10 @@ it('renders without crashing', () => {
   ReactDOM.render(<Handler />, div);
   ReactDOM.unmountComponentAtNode(div);
 })
+
+describe('Handler', () => {
+  it('Should be defined', () => {
+    expect(Handler).toBeDefined();
+
+  });
+});

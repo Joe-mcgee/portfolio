@@ -1,5 +1,6 @@
 .App {
-  grid-column: 1/5;
-  grid-row: 1/4;
 
+  display: grid;
+  grid-template-rows: 62% 9% 5% 24%;
+  grid-template-columns: 24% 5% 9% 62%;
 }
