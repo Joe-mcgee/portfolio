@@ -11,6 +11,14 @@ import Blog from './Blog/Blog';
 import Portfolio from './Portfolio/Portfolio';
 
 class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      width: 960,
+      height: 367
+    }
+  }
   render() {
     return (
       <div className="App">
