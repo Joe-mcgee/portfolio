@@ -20,7 +20,7 @@ class Handler extends Component {
   render () {
 
     return (
-      <div className='Handler'>
+      <div className='Handler' style={{width: this.props.width, height:this.props.height}} >
       <p>this is the Handler</p>
       </div>
       )

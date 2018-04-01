@@ -1,0 +1,5 @@
+.Handler {
+  display: grid;
+  grid-template-rows: 24% 5% 9% 62%;
+  grid-template-columns: 62% 9% 5% 24%;
+}
