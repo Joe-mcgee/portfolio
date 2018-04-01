@@ -12,9 +12,6 @@ import Portfolio from '../Portfolio/Portfolio';
 class Handler extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-
-    }
   }
 
   render () {
