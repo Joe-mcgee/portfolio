@@ -1,13 +1,22 @@
-body {
+@font-face {
+  font-family: 'GoldenRatio';
+  src: url('./GoldenRatio-Demo.ttf');
+}
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: GoldenRatio;
+
 }
+
+
+
 
 #root {
-  display: grid;
-  grid-template-rows: 62% 9% 5% 24%;
-  grid-template-columns: 24% 5% 9% 62%;
-
+  background-image: url('./golden2.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
+
 

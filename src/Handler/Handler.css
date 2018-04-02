@@ -1,0 +1,44 @@
+.Handler {
+  display: grid;
+  grid-template-rows: 24% 5% 9% 62%;
+  grid-template-columns: 62% 9% 5% 24%;
+
+}
+
+.Main {
+
+ grid-row: 1 / 5;
+ grid-column: 1;
+border: 1px solid black;
+}
+
+.Aside {
+
+  grid-row: 4/5;
+  grid-column: 2/5;
+  border: 1px solid black;
+}
+
+.Touch {
+
+  grid-row: 1/4;
+  grid-column: 4/5;
+  border: 1px solid black;
+
+}
+
+.Top {
+
+  grid-row: 1;
+  grid-column: 2/4;
+  border: 1px solid black;
+
+}
+
+.Eye {
+
+  grid-row: 2/4;
+  grid-column: 2/4;
+  border: 1px solid black;
+
+}

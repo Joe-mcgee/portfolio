@@ -15,9 +15,10 @@ class Home extends Component {
   render () {
     return (
       <div className='Home'>
-      <p>Taylor Hulsmans</p>
-      <img />
-      <p> This is My site</p>
+        <img className='Portrait' src={require('./picture.jpg')} />
+        <div className='About' >
+          <p>I'm a Web Developer based from Calgary, Ab.</p>
+        </div>
       </div>
       )
   }
