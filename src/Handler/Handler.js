@@ -19,6 +19,7 @@ class Handler extends Component {
     return (
       <div className='Handler' style={{width: this.props.width, height:this.props.height}} >
         <div className='Main'>
+          <Home />
         </div>
         <div className='Aside'>
         </div>
