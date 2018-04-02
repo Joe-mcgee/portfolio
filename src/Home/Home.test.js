@@ -22,8 +22,9 @@ describe('Home', () => {
       expect(title).toMatchSnapshot();
   });
 
-  xit('Should render picture', () => {
-
+  it('Should render picture', () => {
+    const picture = renderer.create(<img class='Portrait' />).toJSON();
+    expect(picture).toMatchSnapshot();
   });
 
   xit('Should render a tagline', () => {
