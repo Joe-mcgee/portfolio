@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Home Should render a tagline 1`] = `
+<p
+  class="snippit"
+/>
+`;
+
+exports[`Home Should render a title 1`] = `
+<p>
+  Taylor Hulsmans
+</p>
+`;
+
 exports[`Home Should render picture 1`] = `
 <img
   class="Portrait"

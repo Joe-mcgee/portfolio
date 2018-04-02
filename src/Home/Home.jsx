@@ -23,7 +23,9 @@ class Home extends Component {
         </div>
         <img className='Portrait' src={require('./picture.jpg')} />
         <div className='About' >
-          <p>I'm a Web Developer based from Calgary, Ab.</p>
+          <div className= 'snippit'>
+            <p>I'm a Web Developer based from Calgary, Ab.</p>
+          </div>
         </div>
       </div>
       )

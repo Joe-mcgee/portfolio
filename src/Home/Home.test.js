@@ -17,7 +17,7 @@ describe('Home', () => {
 
   });
 
-  xit('Should render a title', () => {
+  it('Should render a title', () => {
     const title = renderer.create(<p>Taylor Hulsmans</p>).toJSON();
       expect(title).toMatchSnapshot();
   });
@@ -27,7 +27,9 @@ describe('Home', () => {
     expect(picture).toMatchSnapshot();
   });
 
-  xit('Should render a tagline', () => {
+  it('Should render a tagline', () => {
+    const tagline = renderer.create(<p class='snippit'></p>)
+    expect(tagline).toMatchSnapshot();
 
   })
 
