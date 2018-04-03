@@ -16,7 +16,9 @@ class Blog extends Component {
 
     return (
       <div className='Blog'>
-      <p>this is the blog</p>
+      <div className='Blog-title'>
+      <h2>Recent</h2>
+      </div>
       </div>)
   }
 }
