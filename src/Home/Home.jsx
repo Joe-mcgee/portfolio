@@ -18,16 +18,18 @@ class Home extends Component {
         <div className='Header'>
             <div className='hi'><p>Hi, I'm... </p></div>
           <div className='title'>
-            <h1 className='name'>Taylor Hulsmans</h1>
+            <h1 className='name'>Taylor Hulsmans
+            <p className='epiloge'>a Web Developer</p></h1>
           </div>
         </div>
         <img className='Portrait' src={require('./picture.jpg')} />
         <div className='About' >
-          <div className= 'snippit'>
-            <p>I'm a Web Developer based from Calgary, Ab.</p>
+            <p className='letter'>Pleased to resonate into your existence</p>
+            <p className='business-call'>Are you in need of Web Development Resources</p>
           </div>
+          <div className='interests'><p></p></div>
         </div>
-      </div>
+
       )
   }
 }

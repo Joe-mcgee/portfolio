@@ -22,6 +22,7 @@ class Handler extends Component {
           <Home />
         </div>
         <div className='Aside'>
+          <Blog />
         </div>
         <div className='Touch'>
         </div>
