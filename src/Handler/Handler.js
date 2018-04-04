@@ -25,6 +25,7 @@ class Handler extends Component {
           <Blog />
         </div>
         <div className='Touch'>
+          <Portfolio />
         </div>
         <div className='Top'>
         </div>
