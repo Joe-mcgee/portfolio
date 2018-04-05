@@ -14,4 +14,9 @@ describe('Handler', () => {
     expect(Handler).toBeDefined();
 
   });
+
+
+  xit('its transform fucntion should iterate the page state', () => {
+
+  })
 });
