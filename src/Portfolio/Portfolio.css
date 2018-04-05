@@ -8,7 +8,7 @@
 
 .Portfolio .Portfolio-Title {
   grid-row: 1;
-  background: linear-gradient(-135deg, rgba(255,255,255,1), rgba(255,255,255,0.618));
+  background: linear-gradient(-130.7deg, rgba(255,255,255,1), rgba(255,255,255,0.618));
 
 display: flex;
 align-items: center;
@@ -21,7 +21,7 @@ justify-content: center;
 }
 
 .Portfolio .Portfolio-Body {
-grid-row:2;
+  grid-row:2;
   background: linear-gradient(300deg, rgba(255,255,255,1), rgba(255,255,255,0.618));
   display: flex;
   align-items: center;
