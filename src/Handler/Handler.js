@@ -28,6 +28,9 @@ class Handler extends Component {
           <Portfolio />
         </div>
         <div className='Top'>
+          <div className='Connect'>
+            <p>Reach me at</p>
+          </div>
         </div>
         <div className='Eye'>
         </div>
