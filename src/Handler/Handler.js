@@ -33,6 +33,7 @@ class Handler extends Component {
           </div>
         </div>
         <div className='Eye'>
+            <Nav />
         </div>
       </div>
       )

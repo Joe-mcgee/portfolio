@@ -1,0 +1,9 @@
+.Nav {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(closest-side at 62% 38%, rgba(255,255,255,0.62), rgba(255,255,255, 0.38));
+}
+
+.Nav:hover {
+  background: radial-gradient(closest-side at 62% 38%, rgba(218, 165, 32, 0.62), rgba(218, 165, 32, 0.38));
+}
