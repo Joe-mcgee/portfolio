@@ -11,9 +11,13 @@ class Nav extends Component {
     }
   }
 
+  spin = () => {
+    this.props.transform()
+  }
+
   render() {
     return (
-      <div className='Nav'>
+      <div className='Nav' onClick={this.spin}>
       </div>
       )
   };

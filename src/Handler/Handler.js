@@ -14,6 +14,10 @@ class Handler extends Component {
     super(props);
   }
 
+  transform = () => {
+    console.log('transform')
+  }
+
   render () {
 
     return (
@@ -33,7 +37,7 @@ class Handler extends Component {
           </div>
         </div>
         <div className='Eye'>
-            <Nav />
+            <Nav transform={this.transform} />
         </div>
       </div>
       )
