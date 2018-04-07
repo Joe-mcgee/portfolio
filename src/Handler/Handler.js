@@ -23,7 +23,7 @@ class Handler extends Component {
   transform = () => {
     let newFocus = this.state.focus + 1;
     this.setState({focus: newFocus})
-}
+  }
 
 
 
@@ -33,11 +33,11 @@ class Handler extends Component {
       for (let i = 0; i < this.state.locations.length; i ++) {
         const match = {}
         const location = this.state.locations[i];
+
         const section = this.state.sections[(i + this.state.focus) % this.state.sections.length];
         match[location] = section;
         seed.push(match)
       }
-      console.log(seed)
 
       let divList = seed.map((match) => {
         const Block = Object.values(match)[0]
