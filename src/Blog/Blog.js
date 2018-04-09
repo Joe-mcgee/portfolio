@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import './Blog.css';
 import {Route, Link, Switch, withRouter, matchPath} from 'react-router-dom';
 
+import BlogList from './BlogList/BlogList';
+import Entry from './Entry/Entry';
 
 class Blog extends Component {
   constructor(props) {
@@ -12,6 +14,8 @@ class Blog extends Component {
     }
   }
 
+
+
   render () {
 
     return (
@@ -20,6 +24,7 @@ class Blog extends Component {
       <h2>Recent</h2>
       </div>
       <div className='Blog-recent'>
+        <BlogList />
       </div>
       </div>)
   }
