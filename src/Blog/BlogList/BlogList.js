@@ -10,9 +10,6 @@ class BlogList extends Component {
     }
   }
 
-
-
-
   pullContent = async () => {
     const json = await fetch('https://thulsmans2994.wordpress.com/');
     const response = await JSON.parse(json);
